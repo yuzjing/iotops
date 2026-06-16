@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+.env.local
+
+# Excel files
+data/input/*.xlsx
+data/output/*.xlsx
+
+# Playwright browser data
+playwright/.local-chromium/
+playwright/.local-firefox/
+playwright/.local-webkit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
